@@ -35,9 +35,9 @@ defmodule Eip712.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_keccak, "~> 0.7.3"},
-      {:ex_abi, "~> 0.6.4"},
+      {:ex_abi, "~> 0.8.3"},
       {:curvy, "~> 0.3.1"},
+      {:keccak_ex, "~> 0.4.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
